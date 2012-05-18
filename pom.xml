@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.hascode.tutorial</groupId>
+	<artifactId>coffeescript-maven-example</artifactId>
+	<version>0.0.1</version>
+	<name>hasCode.com CoffeeScript Maven Tutorial</name>
+	<url>http://www.hascode.com/</url>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>com.voltvoodoo</groupId>
+				<artifactId>brew</artifactId>
+				<version>0.2.10</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>compile</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>
